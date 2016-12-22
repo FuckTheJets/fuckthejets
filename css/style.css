@@ -1,1 +1,53 @@
 
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav {
+    background-color: rgb(41, 67, 58);
+    height: 50px;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.h-scroll{
+    display: flex;
+    width: 100vw;
+    overflow: scroll;
+}
+.h-scroll-content {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+@keyframes pulse{
+    0%{ transform: scale(1)}
+    50%{ transform: scale(1.5)}
+    100%{ transform: scale(1)}
+}
+
+
+@keyframes fadein {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadein 2s forwards;
+}
+
+.main-title {
+    animation: pulse infinite 3s;
+    color: rgb(41, 67, 58);
+}
+
