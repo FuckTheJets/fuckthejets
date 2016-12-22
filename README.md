@@ -1,2 +1,1 @@
-# fuckthejets
-Fuck the Jets
+FUCK THE JETS
